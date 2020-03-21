@@ -42,7 +42,7 @@ layout: contact
             <div class="col-sm-12 col-md-6 contact_right">
                 
                 
-                  <h2>  <font face= didot>CONTACT</font></h2>
+                  <h2>  <font face= didot>Conact</font></h2>
                
                
            
@@ -74,19 +74,21 @@ layout: contact
 
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div id="google-map"></div>
+            <div id="map"></div>
             <script>
-            function myMap() {
-            var mapProp= {
-            center:new google.maps.LatLng(39.289022,-76.6221917),
-            zoom:4,
-            center: mapProp
-            };
-            var map = new google.maps.Map(document.getElementById("google-map"),mapProp);
+            function initMap() {
+            var location= {lat: 39.289022, lng: -76.6221917};
+            var map = new google.maps.Map(document.getElementById("map"),{
+                zoom:4,
+                center: location});
+                var marker = new google.maps.Marker({
+                    position:location,
+                    map:map
+                });
             }
             </script>
             
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj1K7PrMKL5RS2G9uw1y7Y-tkyZsk31J0&callback=myMap"=myMap"></script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj1K7PrMKL5RS2G9uw1y7Y-tkyZsk31J0&callback=intiMap"></script>
 
         </div>                            
     </div>
