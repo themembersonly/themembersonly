@@ -193,7 +193,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom right;
-	border-top: 7px solid #10a5cd;
+	border-top: 7px solid #d42c0f;
 	min-height: 320px;	
 	overflow-y: auto;
 }
@@ -273,7 +273,7 @@ body {
 	width: 100%;
 	margin: 10px 0px;
 }
-.heading { border-left: 4px solid #10a5cd; }
+.heading { border-left: 4px solid ##d42c0f; }
 .heading2 {	border-left: 4px solid #a92446; }
 .heading h1, .heading2 h1 {
 	margin: 0 10px;
@@ -285,7 +285,7 @@ body {
 	font-size: 24px;
 	font-weight: 600;
 }
-.heading p { color: #10a5cd; }
+.heading p { color: #d42c0f; }
 .heading2 p { color: #a92446; }
 .desc, .desc2 {
 	float: left;
@@ -481,7 +481,7 @@ body {
 	margin: 20px 0px;
 }
 .about_box_title h3 {
-	color: #10a5cd;
+	color: #d42c0f;
 	font-weight: 400;
 	font-size: 18px;
 	margin: 0px 7px;
@@ -726,7 +726,7 @@ textarea.form-control {	height:135px; }
 	padding: 12px 0px;
 	width: 44px;
 	height: 44px;
-	background-color: #10a5cd;
+	background-color: #d42c0f;
 	color: #fff;
 	cursor: pointer;
 }
